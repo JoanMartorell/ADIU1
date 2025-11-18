@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descubre nuestra selección de cafés artesanales de origen único">
-    <title>Café Artesanal - Productos</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>☕ Café Artesanal</h1>
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html" class="active">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php
+$page_title = "Café Artesanal - Productos";
+$page_description = "Descubre nuestra selección de cafés artesanales de origen único";
+include 'includes/header.php';
+?>
 
     <main>
         <section class="page-header">
@@ -146,32 +127,5 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Café Artesanal</h3>
-                    <p>Tu pasión por el café, nuestra especialidad</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Enlaces</h4>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contacto</h4>
-                    <p>📧 info@cafeartesanal.com</p>
-                    <p>📞 +34 123 456 789</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Café Artesanal. Todos los derechos reservados.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
 

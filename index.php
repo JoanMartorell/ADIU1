@@ -1,34 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Café Artesanal - Descubre el mejor café de origen único, tostado artesanalmente">
-    <title>Café Artesanal - Inicio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>☕ Café Artesanal</h1>
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php
+$page_title = "Café Artesanal - Inicio";
+$page_description = "Café Artesanal - Descubre el mejor café de origen único, tostado artesanalmente";
+include 'includes/header.php';
+?>
 
     <main>
         <section class="hero">
             <div class="hero-content">
                 <h2>El Arte del Café</h2>
                 <p>Descubre sabores únicos de café de origen único, tostado artesanalmente para una experiencia inolvidable</p>
-                <a href="productos.html" class="btn-primary">Explorar Productos</a>
+                <a href="productos.php" class="btn-primary">Explorar Productos</a>
             </div>
         </section>
 
@@ -115,32 +96,5 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Café Artesanal</h3>
-                    <p>Tu pasión por el café, nuestra especialidad</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Enlaces</h4>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contacto</h4>
-                    <p>📧 info@cafeartesanal.com</p>
-                    <p>📞 +34 123 456 789</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Café Artesanal. Todos los derechos reservados.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
 
